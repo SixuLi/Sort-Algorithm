@@ -1,3 +1,13 @@
+# Time Complexities:
+# Worst Case Complexity: O(N^2)
+# Best Case Complexity: O(N^2)
+# Average Case Complexity: O(N^2)
+
+# Space Comlexity: O(1)
+
+# Stable or not: No
+
+
 def SelectionSort(nums):
     n = len(nums)
     for i in range(n-1):
