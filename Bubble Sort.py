@@ -1,3 +1,13 @@
+# Time Complexities:
+# Worst Case Complexity: O(n^2)
+# Best Case Complexity: O(n)
+# Average Case Complexity: O(n^2)
+
+# Space Complexity: O(1)
+
+# Stability: Stable sort Algorithms sort repeated elements in the same order that they appear in the input.
+# Stable or not: Yes
+
 def BubbleSort(nums):
     n = len(nums)
     for i in range(n):
