@@ -1,3 +1,12 @@
+# Time Complexities:
+# Worst Case Complexity: O(n^2)
+# Best Case Complexity: O(n)
+# Average Case Complexity: O(n^2)
+
+# Space Complexity: O(1)
+
+# Stable or not: Yes
+
 def InsertionSort(nums):
     n = len(nums)
     for i in range(1, n):
